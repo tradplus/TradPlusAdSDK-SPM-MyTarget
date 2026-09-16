@@ -1,4 +1,4 @@
-// swift-tools-version:5.3
+// swift-tools-version:5.5
 
 import PackageDescription
 
@@ -16,11 +16,11 @@ let package = Package(
     dependencies: [
         .package(
             url: "https://github.com/tradplus/TradPlusAdSDK-SPM.git",
-            .exact("15.14.0")
+            .exact("15.15.0")
         ),
         .package(
             url: "https://github.com/myTargetSDK/mytarget-ios-spm.git",
-            .exact("5.45.0")
+            .exact("5.46.0")
         ),
     ],
     targets: [
@@ -36,8 +36,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "TPMyTargetAdapter",
-            url: "https://github.com/tradplus/TradPlusAdSDK-SPM-MyTarget/releases/download/15.14.0/TPMyTargetAdapter-15.14.0.xcframework.zip",
-            checksum: "28d39c9f4eea4ebe1d61058a6679e5fb70c9e82a1d4c2181c8b297e2db5aec7b"
+            url: "https://github.com/tradplus/TradPlusAdSDK-SPM-MyTarget/releases/download/15.15.0/TPMyTargetAdapter-15.15.0.xcframework.zip",
+            checksum: "3934efb529e4de9f31471fd21ed5507dff998ded5cd68c73c0e6dfc8988ce119"
         ),
     ]
 )
