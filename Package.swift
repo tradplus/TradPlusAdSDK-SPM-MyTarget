@@ -16,11 +16,11 @@ let package = Package(
     dependencies: [
         .package(
             url: "https://github.com/tradplus/TradPlusAdSDK-SPM.git",
-            .exact("15.17.0")
+            .exact("15.18.0")
         ),
         .package(
             url: "https://github.com/myTargetSDK/mytarget-ios-spm.git",
-            .exact("5.46.0")
+            .exact("5.47.0")
         ),
     ],
     targets: [
@@ -36,8 +36,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "TPMyTargetAdapter",
-            url: "https://github.com/tradplus/TradPlusAdSDK-SPM-MyTarget/releases/download/15.17.0/TPMyTargetAdapter-15.17.0.xcframework.zip",
-            checksum: "d64dc81dbda8108b1bb2a120e503a8d2953359f456ecda436929281d67cb35b2"
+            url: "https://github.com/tradplus/TradPlusAdSDK-SPM-MyTarget/releases/download/15.18.0/TPMyTargetAdapter-15.18.0.xcframework.zip",
+            checksum: "31ba734491826b2d76d1b84aae833037df458db58148484a03c4ff5f11e023d3"
         ),
     ]
 )
